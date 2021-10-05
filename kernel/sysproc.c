@@ -95,3 +95,29 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+uint64
+sys_clock(void)
+{
+  uint64 p, c;
+  if(argaddr(0, &p) < 0)
+    return -1;
+  
+  asm volatile("rdcycle %0" : "=r" (c));
+  if(copyout(myproc()->pagetable, p, (char *)&c, sizeof(c)) < 0)
+    return -1;
+  return 0;
+}
+
+uint64
+sys_poweroff(void)
+{
+  int exitcode;
+  uint basecode = 0x3333;
+  if(argint(0, &exitcode) < 0)
+    return -1;
+  unsigned int code = (((unsigned int)exitcode) << 16) | basecode;
+
+  *((unsigned int*)0x100000) = code;
+  return 0;
+}

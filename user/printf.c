@@ -39,6 +39,31 @@ printint(int fd, int xx, int base, int sgn)
 }
 
 static void
+printint64(int fd, uint64 xx, int base, int sgn) {
+  char buf[21];
+  int i, neg;
+  uint64 x;
+
+  neg = 0;
+  if(sgn && xx < 0){
+    neg = 1;
+    x = -xx;
+  } else {
+    x = xx;
+  }
+
+  i = 0;
+  do{
+    buf[i++] = digits[x % base];
+  }while((x /= base) != 0);
+  if(neg)
+    buf[i++] = '-';
+
+  while(--i >= 0)
+    putc(fd, buf[i]);
+}
+
+static void
 printptr(int fd, uint64 x) {
   int i;
   putc(fd, '0');
@@ -67,7 +92,8 @@ vprintf(int fd, const char *fmt, va_list ap)
       if(c == 'd'){
         printint(fd, va_arg(ap, int), 10, 1);
       } else if(c == 'l') {
-        printint(fd, va_arg(ap, uint64), 10, 0);
+        state = 'l';
+        continue;
       } else if(c == 'x') {
         printint(fd, va_arg(ap, int), 16, 0);
       } else if(c == 'p') {
@@ -84,12 +110,28 @@ vprintf(int fd, const char *fmt, va_list ap)
         putc(fd, va_arg(ap, uint));
       } else if(c == '%'){
         putc(fd, c);
-      } else {
+      } else if(c == '.'){
+        state = '.';
+        continue;
+      }
+      else {
         // Unknown % sequence.  Print it to draw attention.
         putc(fd, '%');
         putc(fd, c);
       }
       state = 0;
+    } else if(state == 'l') {
+      if (c == 'u') {
+        printint64(fd, va_arg(ap, long long), 10, 0);
+      } else{
+        // Unknown % sequence. Print it to draw attention.
+        putc(fd, '%');
+        putc(fd, 'l');
+        putc(fd, c);
+      }
+      state = 0;
+    } else if(state == '.') {
+      state = '%';
     }
   }
 }

@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/kaist-cp-home/sunghwan.shim/xv6-riscv'
+ 
+make: 'kernel/kernel' is up to date.
+make: Leaving directory '/kaist-cp-home/sunghwan.shim/xv6-riscv'
+ 

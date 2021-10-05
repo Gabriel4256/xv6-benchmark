@@ -1,0 +1,160 @@
+Start benchmark 2021-10-05 22:47:02.445053
+Start benchmark 2021-10-05 22:50:04.310507
+Start benchmark 2021-10-05 22:58:41.497370
+Start benchmark 2021-10-05 22:59:00.449329
+Start benchmark 2021-10-05 22:59:20.234789
+Start benchmark 2021-10-05 22:59:45.624990
+Start benchmark 2021-10-05 22:59:55.441300
+Start benchmark 2021-10-05 23:00:08.831940
+Start benchmark 2021-10-05 23:00:52.308173
+Start benchmark 2021-10-05 23:01:50.970008
+Start benchmark 2021-10-05 23:07:22.633442
+Start benchmark 2021-10-05 23:07:39.445519
+Start benchmark 2021-10-05 23:07:57.459276
+Start benchmark 2021-10-05 23:08:18.930734
+Test=manywrites, Iter=0, ExecCount=5, Mean=21809066162.2, Standard Deviation=241502527.79250622
+Test=execout, Iter=0, ExecCount=5, Mean=65475553416.6, Standard Deviation=738227563.9349642
+Test=copyin, Iter=0, ExecCount=5, Mean=126607658.2, Standard Deviation=3705953.9062850876
+Test=copyout, Iter=0, ExecCount=5, Mean=17656607.2, Standard Deviation=1113278.348388084
+Test=copyinstr1, Iter=0, ExecCount=5, Mean=12218502.6, Standard Deviation=741787.4075689072
+Test=copyinstr2, Iter=0, ExecCount=5, Mean=18798419.8, Standard Deviation=871155.181312262
+Test=copyinstr3, Iter=0, ExecCount=5, Mean=13852393, Standard Deviation=937449.349430944
+Test=rwsbrk, Iter=0, ExecCount=5, Mean=73957154, Standard Deviation=4372761.086428859
+Test=truncate1, Iter=0, ExecCount=5, Mean=110809716.4, Standard Deviation=5563410.107312313
+Test=truncate2, Iter=0, ExecCount=5, Mean=89592318, Standard Deviation=3490926.901884369
+Test=truncate3, Iter=0, ExecCount=5, Mean=1305113069.4, Standard Deviation=11142456.896154111
+Test=reparent2, Iter=0, ExecCount=5, Mean=13575971209.6, Standard Deviation=40510209.03681606
+Test=pgbug, Iter=0, ExecCount=5, Mean=10777108.4, Standard Deviation=1697234.4545507848
+Test=sbrkbugs, Iter=0, ExecCount=5, Mean=35191602.8, Standard Deviation=894487.986102217
+Test=badarg, Iter=0, ExecCount=5, Mean=5460017161.8, Standard Deviation=25789693.283444606
+Test=reparent, Iter=0, ExecCount=5, Mean=1350425859.4, Standard Deviation=23482121.55991688
+Test=twochildren, Iter=0, ExecCount=5, Mean=9355535832.6, Standard Deviation=14072000.944930336
+Test=forkfork, Iter=0, ExecCount=5, Mean=1725179841.4, Standard Deviation=18489092.23468495
+Test=forkforkfork, Iter=0, ExecCount=5, Mean=11017585704.2, Standard Deviation=97832902.66470787
+Test=argptest, Iter=0, ExecCount=5, Mean=16155406.2, Standard Deviation=2173272.579334608
+Test=createdelete, Iter=0, ExecCount=5, Mean=3795505606.2, Standard Deviation=122877391.06523077
+Test=linkunlink, Iter=0, ExecCount=5, Mean=1629645449.2, Standard Deviation=65081061.245157965
+Test=linktest, Iter=0, ExecCount=5, Mean=230717089, Standard Deviation=6418120.428105646
+Test=unlinkread, Iter=0, ExecCount=5, Mean=189590234.8, Standard Deviation=5390114.766916536
+Test=concreate, Iter=0, ExecCount=5, Mean=10762278874, Standard Deviation=110458895.33268405
+Test=subdir, Iter=0, ExecCount=5, Mean=587308969.8, Standard Deviation=18583829.612013306
+Test=fourfiles, Iter=0, ExecCount=5, Mean=589081062.6, Standard Deviation=28086561.37457616
+Test=sharedfd, Iter=0, ExecCount=5, Mean=1998905308.6, Standard Deviation=32459760.730088327
+Test=dirtest, Iter=0, ExecCount=5, Mean=112822005.8, Standard Deviation=5595264.019924278
+Test=exectest, Iter=0, ExecCount=5, Mean=139623725.4, Standard Deviation=11756398.979614094
+Test=bigargtest, Iter=0, ExecCount=5, Mean=105841452.6, Standard Deviation=1980036.2196194292
+Test=bigwrite, Iter=0, ExecCount=5, Mean=4365838102.8, Standard Deviation=40153010.45876346
+Test=bsstest, Iter=0, ExecCount=5, Mean=11359666, Standard Deviation=1004330.0722513988
+Test=sbrkbasic, Iter=0, ExecCount=5, Mean=3441347370.8, Standard Deviation=76284210.49504267
+Test=sbrkmuch, Iter=0, ExecCount=5, Mean=2524530653.4, Standard Deviation=14489431.900165282
+Test=kernmem, Iter=0, ExecCount=5, Mean=489454551.8, Standard Deviation=31165586.477617163
+Test=sbrkfail, Iter=0, ExecCount=5, Mean=11462709764.2, Standard Deviation=82883776.65600248
+Test=sbrkarg, Iter=0, ExecCount=5, Mean=128660595.8, Standard Deviation=13138701.633027354
+Test=validatetest, Iter=0, ExecCount=5, Mean=255535527.2, Standard Deviation=22437827.22943245
+Test=stacktest, Iter=0, ExecCount=5, Mean=19912734, Standard Deviation=1561595.7012961134
+Test=opentest, Iter=0, ExecCount=5, Mean=30376282.2, Standard Deviation=2222055.948074598
+Test=writetest, Iter=0, ExecCount=5, Mean=1478206225.2, Standard Deviation=34511985.45674041
+Test=writebig, Iter=0, ExecCount=5, Mean=3570771802, Standard Deviation=59883200.96866725
+Test=createtest, Iter=0, ExecCount=5, Mean=4927520713.5, Standard Deviation=107554657.42558639
+Start benchmark 2021-10-05 23:12:36.204475
+Test=manywrites, Iter=0, ExecCount=10, Mean=21696713212.8, Standard Deviation=1550675898.7231278
+Test=execout, Iter=0, ExecCount=10, Mean=64351060779.3, Standard Deviation=175969893.39550117
+Test=copyin, Iter=0, ExecCount=10, Mean=129651592.7, Standard Deviation=3660315.3218543297
+Test=copyout, Iter=0, ExecCount=10, Mean=18106342.2, Standard Deviation=1242822.6079579052
+Test=copyinstr1, Iter=0, ExecCount=10, Mean=13047624.5, Standard Deviation=1334329.8886042011
+Test=copyinstr2, Iter=0, ExecCount=10, Mean=18350745.7, Standard Deviation=1487052.4372962366
+Test=copyinstr3, Iter=0, ExecCount=10, Mean=15662832.6, Standard Deviation=2330810.345084645
+Test=rwsbrk, Iter=0, ExecCount=10, Mean=68308308.5, Standard Deviation=4046742.099408863
+Test=truncate1, Iter=0, ExecCount=10, Mean=110440400.9, Standard Deviation=6200707.234983432
+Test=truncate2, Iter=0, ExecCount=10, Mean=88335368.8, Standard Deviation=2550413.394166383
+Test=truncate3, Iter=0, ExecCount=10, Mean=1333831844.1, Standard Deviation=13078626.498685211
+Test=reparent2, Iter=0, ExecCount=10, Mean=13497636108.3, Standard Deviation=33845334.92856484
+Test=pgbug, Iter=0, ExecCount=10, Mean=9938362.8, Standard Deviation=898672.0123710689
+Test=sbrkbugs, Iter=0, ExecCount=10, Mean=44507300, Standard Deviation=15288153.997748148
+Test=badarg, Iter=0, ExecCount=10, Mean=5520607555.2, Standard Deviation=19253669.34338142
+Test=reparent, Iter=0, ExecCount=10, Mean=1334746746.8, Standard Deviation=18122269.59164807
+Test=twochildren, Iter=0, ExecCount=10, Mean=9252011579, Standard Deviation=25110477.126412358
+Test=forkfork, Iter=0, ExecCount=10, Mean=1639206767.2, Standard Deviation=17399362.390440103
+Test=forkforkfork, Iter=0, ExecCount=10, Mean=11030430457.7, Standard Deviation=97358581.62672058
+Test=argptest, Iter=0, ExecCount=10, Mean=14739438.4, Standard Deviation=832997.1563657213
+Test=createdelete, Iter=0, ExecCount=10, Mean=4081894715.6, Standard Deviation=97552747.57042237
+Test=linkunlink, Iter=0, ExecCount=10, Mean=1724841868.6, Standard Deviation=33204605.832267128
+Test=linktest, Iter=0, ExecCount=10, Mean=240048115.3, Standard Deviation=8109736.6721870825
+Test=unlinkread, Iter=0, ExecCount=10, Mean=196431501.5, Standard Deviation=7232514.130750528
+Test=concreate, Iter=0, ExecCount=10, Mean=10680856137.5, Standard Deviation=102638125.18479125
+Test=subdir, Iter=0, ExecCount=10, Mean=562254982.2, Standard Deviation=15175993.93991328
+Test=fourfiles, Iter=0, ExecCount=10, Mean=570646423.1, Standard Deviation=21857359.436390217
+Test=sharedfd, Iter=0, ExecCount=10, Mean=1960041766.6, Standard Deviation=16254751.305350652
+Test=dirtest, Iter=0, ExecCount=10, Mean=102402091.7, Standard Deviation=4034016.430940345
+Test=exectest, Iter=0, ExecCount=10, Mean=132680779, Standard Deviation=3370197.138311447
+Test=bigargtest, Iter=0, ExecCount=10, Mean=103900099.6, Standard Deviation=12880519.188656189
+Test=bigwrite, Iter=0, ExecCount=10, Mean=4474606588.4, Standard Deviation=45888685.67373267
+Test=bsstest, Iter=0, ExecCount=10, Mean=11063111, Standard Deviation=907291.6266759118
+Test=sbrkbasic, Iter=0, ExecCount=10, Mean=3018116484.6, Standard Deviation=82109292.0336303
+Test=sbrkmuch, Iter=0, ExecCount=10, Mean=2235808527.5, Standard Deviation=39150027.1400813
+Test=kernmem, Iter=0, ExecCount=10, Mean=460690429.9, Standard Deviation=55840875.35930136
+Test=sbrkfail, Iter=0, ExecCount=10, Mean=9854095096.5, Standard Deviation=41324672.273667835
+Test=sbrkarg, Iter=0, ExecCount=10, Mean=118252636.4, Standard Deviation=6652104.360998809
+Test=validatetest, Iter=0, ExecCount=10, Mean=269233127, Standard Deviation=3192969.616331202
+Test=stacktest, Iter=0, ExecCount=10, Mean=17613861.1, Standard Deviation=1166722.4069461948
+Test=opentest, Iter=0, ExecCount=10, Mean=29370651.8, Standard Deviation=2349036.749498294
+Test=writetest, Iter=0, ExecCount=10, Mean=1428139749.2, Standard Deviation=19525761.554697644
+Test=writebig, Iter=0, ExecCount=10, Mean=3927819700.4, Standard Deviation=1128724779.8189235
+Test=createtest, Iter=0, ExecCount=10, Mean=5087313745.7, Standard Deviation=939616776.8166046
+Test=openiput, Iter=0, ExecCount=10, Mean=336315218.5, Standard Deviation=62580334.889276765
+Test=exitiput, Iter=0, ExecCount=10, Mean=121425334.6, Standard Deviation=6671988.286594987
+Test=iput, Iter=0, ExecCount=10, Mean=114110094.2, Standard Deviation=6299184.222994413
+Test=mem, Iter=0, ExecCount=10, Mean=4769269933.8, Standard Deviation=17053461.797404002
+Test=pipe1, Iter=0, ExecCount=10, Mean=28705846.9, Standard Deviation=743694.3317686149
+Test=killstatus, Iter=0, ExecCount=10, Mean=36882688621.4, Standard Deviation=97560639.60502489
+Test=preempt, Iter=0, ExecCount=10, Mean=391550198.6, Standard Deviation=113126353.90099029
+Test=exitwait, Iter=0, ExecCount=10, Mean=479874818.9, Standard Deviation=1348873.5402054272
+Test=rmdot, Iter=0, ExecCount=10, Mean=165585733.7, Standard Deviation=99766675.19694026
+Test=fourteen, Iter=0, ExecCount=10, Mean=464369654.4, Standard Deviation=247126027.87606317
+Test=bigfile, Iter=0, ExecCount=10, Mean=318459962, Standard Deviation=23853555.442630183
+Test=dirfile, Iter=0, ExecCount=10, Mean=153892797.6, Standard Deviation=8118256.039075637
+Test=iref, Iter=0, ExecCount=10, Mean=3538870753.5, Standard Deviation=94160111.43352084
+Test=forktest, Iter=0, ExecCount=10, Mean=210937825.1, Standard Deviation=2360115.058619504
+Test=bigdir, Iter=0, ExecCount=10, Mean=90735560994.1, Standard Deviation=5259492330.00767
+Test=manywrites, Iter=0, ExecCount=10, Mean=17569788535.2, Standard Deviation=357897603.2974034
+Test=execout, Iter=0, ExecCount=10, Mean=25663302075.6, Standard Deviation=371753731.9290261
+Test=copyin, Iter=0, ExecCount=10, Mean=107360765.1, Standard Deviation=3247718.201228345
+Test=copyout, Iter=0, ExecCount=10, Mean=11600887.5, Standard Deviation=1093793.1241877964
+Test=copyinstr1, Iter=0, ExecCount=10, Mean=8231586.1, Standard Deviation=1072110.7247900646
+Test=copyinstr2, Iter=0, ExecCount=10, Mean=9214591, Standard Deviation=608473.3470357505
+Test=copyinstr3, Iter=0, ExecCount=10, Mean=8683726.1, Standard Deviation=779088.9316055787
+Test=rwsbrk, Iter=0, ExecCount=10, Mean=56988602.5, Standard Deviation=3295268.8002839684
+Test=truncate1, Iter=0, ExecCount=10, Mean=90869565.4, Standard Deviation=4309684.849511342
+Test=truncate2, Iter=0, ExecCount=10, Mean=71655202.7, Standard Deviation=2767094.145933
+Test=truncate3, Iter=0, ExecCount=10, Mean=1102470474.1, Standard Deviation=9205504.375241483
+Test=reparent2, Iter=0, ExecCount=10, Mean=2591925528.1, Standard Deviation=11176664.225091606
+Test=pgbug, Iter=0, ExecCount=10, Mean=6961731.3, Standard Deviation=1073717.4174731087
+Test=sbrkbugs, Iter=0, ExecCount=10, Mean=16223523.2, Standard Deviation=1911179.7564454963
+Test=badarg, Iter=0, ExecCount=10, Mean=2666120155.5, Standard Deviation=13161839.89093066
+Test=reparent, Iter=0, ExecCount=10, Mean=402662811.9, Standard Deviation=4232894.733172467
+Test=twochildren, Iter=0, ExecCount=10, Mean=2008122859.6, Standard Deviation=6467107.199735911
+Test=forkfork, Iter=0, ExecCount=10, Mean=351362212, Standard Deviation=6786303.772322833
+Test=forkforkfork, Iter=0, ExecCount=10, Mean=11048087253.6, Standard Deviation=50630544.7035588
+Test=argptest, Iter=0, ExecCount=10, Mean=9114628.1, Standard Deviation=853924.7587945452
+Test=createdelete, Iter=0, ExecCount=10, Mean=3184066561, Standard Deviation=92697049.54189466
+Test=linkunlink, Iter=0, ExecCount=10, Mean=1396082261, Standard Deviation=17333969.76276957
+Test=linktest, Iter=0, ExecCount=10, Mean=185389576.7, Standard Deviation=11795061.88643564
+Test=unlinkread, Iter=0, ExecCount=10, Mean=154951678.4, Standard Deviation=15143530.116464663
+Test=concreate, Iter=0, ExecCount=10, Mean=8945310964.4, Standard Deviation=74016380.08034535
+Test=subdir, Iter=0, ExecCount=10, Mean=495279583.9, Standard Deviation=13777740.679682834
+Test=fourfiles, Iter=0, ExecCount=10, Mean=492320053.8, Standard Deviation=32781105.478357855
+Test=sharedfd, Iter=0, ExecCount=10, Mean=1790433466.9, Standard Deviation=4065119.1948040766
+Test=dirtest, Iter=0, ExecCount=10, Mean=84626618.3, Standard Deviation=4873243.279841078
+Test=exectest, Iter=0, ExecCount=10, Mean=113349988.4, Standard Deviation=5236314.742871177
+Test=bigargtest, Iter=0, ExecCount=10, Mean=83993048.8, Standard Deviation=3317472.4962726203
+Test=bigwrite, Iter=0, ExecCount=10, Mean=3835637811.6, Standard Deviation=27407474.2221535
+Test=bsstest, Iter=0, ExecCount=10, Mean=7634794.6, Standard Deviation=1222474.7648919383
+Test=sbrkbasic, Iter=0, ExecCount=10, Mean=655817363.2, Standard Deviation=10273318.642343128
+Test=sbrkmuch, Iter=0, ExecCount=10, Mean=386528776.9, Standard Deviation=14650683.912663512
+Test=kernmem, Iter=0, ExecCount=10, Mean=167409896.6, Standard Deviation=5381173.455922255
+Test=sbrkfail, Iter=0, ExecCount=10, Mean=1672819709.5, Standard Deviation=25817016.556529757
+Test=sbrkarg, Iter=0, ExecCount=10, Mean=107823346.5, Standard Deviation=10143181.65770487
+Test=validatetest, Iter=0, ExecCount=10, Mean=240574913.9, Standard Deviation=14383379.509700233
+Test=stacktest, Iter=0, ExecCount=10, Mean=13286729.6, Standard Deviation=1770546.6552801144
+Test=opentest, Iter=0, ExecCount=10, Mean=22330240, Standard Deviation=2477203.01201097
+Test=writetest, Iter=0, ExecCount=10, Mean=1253336146.3, Standard Deviation=30454499.321153596
